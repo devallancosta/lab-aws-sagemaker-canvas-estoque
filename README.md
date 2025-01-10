@@ -42,6 +42,22 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
+### 5. Resumo
+
+- Foi escolhido o modelo de previsão de estoque
+
+o RMSE foi de 26.756 e o MSE foi de 715.859
+
+A coluna de impacto teve uma relação de 56.216% em relação ao Estoque
+ID_produto 25.616
+PREÇO 17.135
+FLAG_PROMOCAO 1.03
+
+Depois de mudar as métricas de ID_PRODUTO aumentar de 1000 para 1500
+DATA_EVENTO de 12/31/2023 para 12/31/2024 e PREÇO de 44.2 para 70
+
+A quantidade de estoque ficou com 87.362 em relação a 103.709
+
 ## 🤔 Dúvidas?
 
 Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
